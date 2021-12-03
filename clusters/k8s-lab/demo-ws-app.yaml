@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: demo-ws-app
-          image: docker.io/kbhaskar2021/demo-ws-app:1.0.1
+          image: docker.io/kbhaskar2021/demo-ws-app:v1.0.1
           command:
             - python
             - -m
