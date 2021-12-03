@@ -1,0 +1,11 @@
+---
+apiVersion: image.toolkit.fluxcd.io/v1beta1
+kind: ImageRepository
+metadata:
+  name: demo-ws-app
+  namespace: flux-system
+spec:
+  image: docker.io/kamalbhaskar/demo-ws-app
+  interval: 1m0s
+  secretRef:
+    name: regcred
