@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: demo-ws-app
-        image: docker.io/kbhaskar2021/demo-ws-app:v1.0.8 # {"$imagepolicy": "flux-system:demo-ws-app"}
+        image: docker.io/kbhaskar2021/demo-ws-app:v1.0.9 # {"$imagepolicy": "flux-system:demo-ws-app"}
         command:
         - python
         - -m
